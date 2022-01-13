@@ -1,0 +1,690 @@
+[
+    {
+        "name": "Abarenji",
+        "type": "District",
+        "code": "100269"
+    },
+    {
+        "name": "Abule Egba",
+        "type": "District",
+        "code": "100276"
+    },
+    {
+        "name": "Abule Ijesha",
+        "type": "District",
+        "code": "100213"
+
+    },
+    {
+        "name": "Abule Okuta",
+        "type": "District",
+        "code": "100223"
+    },
+    {
+        "name": "Adeniran Ogunsanya",
+        "type": "District",
+        "code": "101211"
+    },
+    {
+        "name": "Agbelekale",
+        "type": "District",
+        "code": "100324"
+    },
+    {
+        "name": "Agege",
+        "type": "District",
+        "code": "100283"
+    },
+    {
+        "name": "Ajao Estate",
+        "type": "District",
+        "code": "100263"
+    },
+    {
+        "name": "Akesan",
+        "type": "District",
+        "code": "100268"
+    },
+    {
+        "name": "Ajegunle Boundry",
+        "type": "District",
+        "code": "102211"
+    },
+    {
+        "name": "Alakuko",
+        "type": "District",
+        "code": "100271"
+    },
+    {
+        "name": "Alagbado",
+        "type": "District",
+        "code": "100314"
+    },
+    {
+        "name": "Alapere Ketu",
+        "type": "District",
+        "code": "100244"
+    },
+    {
+        "name": "Allen",
+        "type": "District",
+        "code": "100281"
+    },
+    {
+        "name": "Alimosho",
+        "type": "District",
+        "code": "100275"
+    },
+    {
+        "name": "Anthony",
+        "type": "District",
+        "code": "100232"
+    },
+    {
+        "name": "Amukoko Alaba Oro",
+        "type": "District",
+        "code": "102212"
+    },
+    {
+        "name": "Amukoko East",
+        "type": "District",
+        "code": "102214"
+    },
+    {
+        "name": "Amukoko North",
+        "type": "District",
+        "code": "102215"
+    },
+    {
+        "name": "Amukoko West",
+        "type": "District",
+        "code": "102213"
+    },
+    {
+        "name": "Apapa Central",
+        "type": "District",
+        "code": "101251"
+    },
+    {
+        "name": "Apapa North",
+        "type": "District",
+        "code": "101253"
+    },
+    {
+        "name": "Apapa South",
+        "type": "District",
+        "code": "101253"
+    },
+    {
+        "name": "Atunrase Estate",
+        "type": "District",
+        "code": "100235"
+    },
+    {
+        "name": "Ayodele Street",
+        "type": "District",
+        "code": "100233"
+    },
+    {
+        "name": "Badore",
+        "type": "District",
+        "code": "101269"
+    },
+    {
+        "name": "Bakare Faro",
+        "type": "District",
+        "code": "102216"
+    },
+    {
+        "name": "Balogun",
+        "type": "District",
+        "code": "100267"
+    },
+    {
+        "name": "Broad St",
+        "type": "District",
+        "code": "100221"
+    },
+    {
+        "name": "Bungalow Estate",
+        "type": "District",
+        "code": "100264"
+    },
+    {
+        "name": "Balogun",
+        "type": "District",
+        "code": "100267"
+    },
+    {
+        "name": "Dolphin Estate",
+        "type": "District",
+        "code": "101222"
+    },
+    {
+        "name": "Dopemu",
+        "type": "District",
+        "code": "100273"
+    },
+    {
+        "name": "Ebute Meta West",
+        "type": "District",
+        "code": "101211"
+    },
+    {
+        "name": "Egan",
+        "type": "District",
+        "code": "100268"
+    },
+    {
+        "name": "Egbe",
+        "type": "District",
+        "code": "100265"
+    },
+    {
+        "name": "Egbeda",
+        "type": "District",
+        "code": "100276"
+    },
+    {
+        "name": "Epe Tedo",
+        "type": "District",
+        "code": "101224"
+    },
+    {
+        "name": "Fadeyi",
+        "type": "District",
+        "code": "100252"
+    },
+    {
+        "name": "Festac Community 2",
+        "type": "District",
+        "code": "102312"
+    },
+    {
+        "name": "Festac Community 3",
+        "type": "District",
+        "code": "102313"
+    },
+    {
+        "name": "Festac Community 4",
+        "type": "District",
+        "code": "102314"
+    },
+    {
+        "name": "Idumota",
+        "type": "District",
+        "code": "101227"
+    },
+    {
+        "name": "Idumu",
+        "type": "District",
+        "code": "100276"
+    },
+    {
+        "name": "Ifako Agege",
+        "type": "District",
+        "code": "100215"
+    },
+    {
+        "name": "Ijedodo",
+        "type": "District",
+        "code": "100269"
+    },
+    {
+        "name": "Ijeshatedo",
+        "type": "District",
+        "code": "101282"
+    },
+    {
+        "name": "Iju Isaga",
+        "type": "District",
+        "code": "100216"
+    },
+    {
+        "name": "Ikeja Oba Akran",
+        "type": "District",
+        "code": "100282"
+    },
+    {
+        "name": "Ikosi",
+        "type": "District",
+        "code": "100246"
+    },
+    {
+        "name": "Ikotun",
+        "type": "District",
+        "code": "100265"
+    },
+    {
+        "name": "Ikoyi",
+        "type": "District",
+        "code": "101233"
+    },
+    {
+        "name": "Ipaja",
+        "type": "District",
+        "code": "100278"
+    },
+    {
+        "name": "Isale Eko",
+        "type": "District",
+        "code": "101226 "
+    },
+    {
+        "name": "Isheri Ofin",
+        "type": "District",
+        "code": "100214"
+    },
+    {
+        "name": "Isheri Oke",
+        "type": "District",
+        "code": "100214"
+    },
+    {
+        "name": "Isheri Osun",
+        "type": "District",
+        "code": "100266"
+    },
+    {
+        "name": "Isolo",
+        "type": "District",
+        "code": "100263"
+    },
+    {
+        "name": "Itire",
+        "type": "District",
+        "code": "100281"
+    },
+    {
+        "name": "Isheri Osun",
+        "type": "District",
+        "code": "100266"
+    },
+    {
+        "name": "Ijora Badia Central",
+        "type": "District",
+        "code": "102222"
+    },
+    {
+        "name": "Ijora Badia East",
+        "type": "District",
+        "code": "102221"
+    },
+    {
+        "name": "Ijora Badia North",
+        "type": "District",
+        "code": "102224"
+    },
+    {
+        "name": "Ijora Badia West",
+        "type": "District",
+        "code": "102223"
+    },
+    {
+        "name": "Ijora Oloye",
+        "type": "District",
+        "code": "102223"
+    },
+    {
+        "name": "Itafaji",
+        "type": "District",
+        "code": "101225"
+    },
+    {
+        "name": "Jankara",
+        "type": "District",
+        "code": "100312"
+    },
+    {
+        "name": "Jibowu",
+        "type": "District",
+        "code": "100252"
+    },
+    {
+        "name": "Keffi",
+        "type": "District",
+        "code": "101232"
+    },
+    {
+        "name": "Ketu",
+        "type": "District",
+        "code": "100243"
+    },
+    {
+        "name": "Ketu Mile 12",
+        "type": "District",
+        "code": "100247"
+    },
+    {
+        "name": "Ketu Orisigun",
+        "type": "District",
+        "code": "100245"
+    },
+    {
+        "name": "Kirikiri Industrial",
+        "type": "District",
+        "code": "102272"
+    },
+    {
+        "name": "Kirikiri Phase",
+        "type": "District",
+        "code": "102273"
+    },
+    {
+        "name": "Lafiaji",
+        "type": "District",
+        "code": "101223"
+    },
+    {
+        "name": "Lawanson",
+        "type": "District",
+        "code": "100254"
+    },
+    {
+        "name": "Magodo",
+        "type": "District",
+        "code": "100248"
+    },
+    {
+        "name": "Makoko Extension",
+        "type": "District",
+        "code": "101244"
+    },
+    {
+        "name": "Marina",
+        "type": "District",
+        "code": "100221"
+    },
+    {
+        "name": "Maryland",
+        "type": "District",
+        "code": "101244"
+    },
+    {
+        "name": "Massy",
+        "type": "District",
+        "code": "101225"
+    },
+    {
+        "name": "Meiran",
+        "type": "District",
+        "code": "100361"
+    },
+    {
+        "name": "Mende",
+        "type": "District",
+        "code": "100211"
+    },
+    {
+        "name": "Murtala Muhammed Airport",
+        "type": "District",
+        "code": "100272"
+    },
+    {
+        "name": "Mushin",
+        "type": "District",
+        "code": "100253"
+    },
+    {
+        "name": "Obalende",
+        "type": "District",
+        "code": "101232"
+    },
+    {
+        "name": "Obanikoro",
+        "type": "District",
+        "code": "100232"
+    },
+    {
+        "name": "Offin",
+        "type": "District",
+        "code": "101227"
+    },
+    {
+        "name": "Ogba Aguda",
+        "type": "District",
+        "code": "100218"
+    },
+    {
+        "name": "Ogudu",
+        "type": "District",
+        "code": "100242"
+    },
+    {
+        "name": "Ojodu",
+        "type": "District",
+        "code": "100213"
+    },
+    {
+        "name": "Ojokoro",
+        "type": "District",
+        "code": "100313"
+    },
+    {
+        "name": "Ojota",
+        "type": "District",
+        "code": "100242"
+    },
+    {
+        "name": "Oke Arin",
+        "type": "District",
+        "code": "101227"
+    },
+    {
+        "name": "Okepopo",
+        "type": "District",
+        "code": "101224"
+    },
+    {
+        "name": "Oko Oba Agege",
+        "type": "District",
+        "code": "100284"
+    },
+    {
+        "name": "Olodi Apapa",
+        "type": "District",
+        "code": "102241 "
+    },
+    {
+        "name": "Olota",
+        "type": "District",
+        "code": "100341"
+    },
+    {
+        "name": "Olowoira",
+        "type": "District",
+        "code": "100214"
+    },
+    {
+        "name": "Olowogbowo",
+        "type": "District",
+        "code": "101227"
+    },
+    {
+        "name": "Olute / Navy Town",
+        "type": "District",
+        "code": "102341"
+    },
+    {
+        "name": "Onikan",
+        "type": "District",
+        "code": "101231"
+    },
+    {
+        "name": "Onike",
+        "type": "District",
+        "code": "100213"
+    },
+    {
+        "name": "Onipanu",
+        "type": "District",
+        "code": "100252"
+    },
+    {
+        "name": "Opebi",
+        "type": "District",
+        "code": "100281"
+    },
+    {
+        "name": "Oregun",
+        "type": "District",
+        "code": "100212"
+    },
+    {
+        "name": "Oremiji Ifako",
+        "type": "District",
+        "code": "100252"
+    },
+    {
+        "name": "Orile Igamu",
+        "type": "District",
+        "code": "101271"
+    },
+    {
+        "name": "Oshodi",
+        "type": "District",
+        "code": "100261"
+    },
+    {
+        "name": "Oworonshoki L and K",
+        "type": "District",
+        "code": "100222"
+    },
+    {
+        "name": "Oya Estate",
+        "type": "District",
+        "code": "100274"
+    },
+    {
+        "name": "Palmgrove",
+        "type": "District",
+        "code": "100252"
+    },
+    {
+        "name": "Sari Iganmu Orile North",
+        "type": "District",
+        "code": "102232"
+    },
+    {
+        "name": "Sari Iganmu Orile South",
+        "type": "District",
+        "code": "102231"
+    },
+    {
+        "name": "Sangisa",
+        "type": "District",
+        "code": "100248"
+    },
+    {
+        "name": "Satelite Town",
+        "type": "District",
+        "code": "102361"
+    },
+    {
+        "name": "Site C",
+        "type": "District",
+        "code": "102361"
+    },
+    {
+        "name": "Shogunle",
+        "type": "District",
+        "code": "100261"
+    },
+    {
+        "name": "Shomolu Central",
+        "type": "District",
+        "code": "100231"
+    },
+    {
+        "name": "Shomolu Pedro",
+        "type": "District",
+        "code": "100233"
+    },
+    {
+        "name": "Suberu Oje",
+        "type": "District",
+        "code": "100351"
+    },
+    {
+        "name": "Surulere Central",
+        "type": "District",
+        "code": "101283"
+    },
+    {
+        "name": "Tujusho",
+        "type": "District",
+        "code": "101283"
+    },
+    {
+        "name": "Victoria Island",
+        "type": "District",
+        "code": "101241"
+    },
+    {
+        "name": "Yaba / Ebute Meta East",
+        "type": "District",
+        "code": "101212"
+    },
+    {
+        "name": "Asago Sango",
+        "type": "Badagary L.G.A",
+        "code": "103241"
+    },
+    {
+        "name": "Ajara Agamathem Vetho / Ibereko ",
+        "type": "Badagary L.G.A",
+        "code": "103211"
+    },
+    {
+        "name": "Bereks / Surulere",
+        "type": "Badagary L.G.A",
+        "code": "103251"
+    },
+    {
+        "name": "Agbowa",
+        "type": "Epe L.G.A",
+        "code": "106104"
+    },
+    {
+        "name": "Ejinrin",
+        "type": "Epe L.G.A",
+        "code": "106102"
+    },
+    {
+        "name": "Epe",
+        "type": "Epe L.G.A",
+        "code": "106101"
+    },
+    {
+        "name": "Erodo",
+        "type": "Epe L.G.A",
+        "code": "106103"
+    },
+    {
+        "name": "Ibeju",
+        "type": "Ibeju-Lekki L.G.A",
+        "code": "105101"
+    },
+    {
+        "name": "Lekki",
+        "type": "Ibeju-Lekki L.G.A",
+        "code": "105102"
+    },
+    {
+        "name": "Ikorodu Rural",
+        "type": "Ikorodu L.G.A",
+        "code": "104101"
+    },
+    {
+        "name": "Irepodun",
+        "type": "Ikorodu L.G.A",
+        "code": "104102"
+    }
+]
+
+
+
+
+
+
+

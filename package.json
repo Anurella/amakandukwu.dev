@@ -1,0 +1,30 @@
+{
+  "name": "amakandukwu.dev",
+  "version": "2.0.0",
+  "description": "This repository holds the redesign of personal Web site.",
+  "main": "index.js",
+  "scripts": {
+    "watch:eleventy": "eleventy --serve --port=2021",
+    "build:eleventy": "npx @11ty/eleventy",
+    "start": "npm run clean && npm-run-all watch:* ",
+    "build": "npm-run-all build:*",
+    "clean": "rm -Rf ./_site/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurella/amakandukwu.dev.git"
+  },
+  "author": "Amaka Ndukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurella/amakandukwu.dev/issues"
+  },
+  "homepage": "https://github.com/Anurella/amakandukwu.dev#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "@sardine/eleventy-plugin-tinyhtml": "^0.1.0"
+  }
+}

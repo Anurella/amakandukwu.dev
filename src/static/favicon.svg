@@ -1,0 +1,18 @@
+<svg aria-label="Logo Image" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+     @media(prefers-color-scheme:dark) {
+         .a {
+             fill:hsl(0,0%,100%);
+         }
+     }
+    </style>
+    <g clip-path="url(#clip0)">
+        <path class="a" d="M40 0.000976562H30H19.9999H9.9999H0V10.0009V20.0009V30.0008V40.0009V50.0008H9.9999V40.0009V30.0008V20.0009V10.0009H19.9999H30H40H50V0.000976562H40Z" fill="black" aria-label="Logo Image"></path>
+        <path class="a" d="M40 10.0009V20.0009H30H19.9999V30.0008V40.0009V50.0008H30H40H49.9999V40.0009V30.0008V20.0009V10.0009H40ZM40 40.0009H30V30.0008H40V40.0009Z" fill="black" aria-label="Logo Image"></path>
+    </g>
+    <defs>
+        <clipPath id="clip0">
+            <rect width="50" height="50" fill="white"></rect>
+        </clipPath>
+    </defs>
+</svg>

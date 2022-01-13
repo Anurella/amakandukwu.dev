@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- The doctype tells your browser what version of HTML you're using. Omitting it will make browsers enter a non-compliant and incompatible mode known as "quirks mode”, in which page behavior can be broken and unexpected. Yikes. -->
+
+<html lang="en" class="no-js">
+<!-- The lang attribute tells the browser which language the document is written in (English, Arabic, French, etc.) The attribute makes the page more indexable by search engines, and translatable by 3rd party tools such as Google Translate. Omitting it will prevent appropriate synthetic voice profiles from being triggered where needed.
+
+(Try browsing a page with the wrong lang attribute using a screen reader. You may get a good laugh out of it, but you'll also realize why using the proper lang attribute is important.) -->
+<!-- The no-js class is a CSS hook I will use to style interactive content before their interactivity (JavaScript) kicks in. This class name will be removed when JS runs.
+
+Progressive Enhancement FTW! -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Don’t be a control freak. Always enable pinch-to-zoom. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- These two tags must come first in the <head> to consistently ensure proper document rendering. Any other head element should come *after* these tags. -->
+
+    <!-- SEO -->
+    <title>{{ title }} – Amaka Ndukwu, front end engineer</title>
+    <meta name="description" content="{{ desc }}">
+    <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
+    <!-- 👆🏻 P.S. The best SEO tip I’ve ever received was: write good content. Good content is the best search engine optimization. -->
+    <meta name="supported-color-schemes" content="light dark">
+    <!-- The favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <!-- <meta name="theme-color" content="#fff"> would also go here but I’ve got it already defined in the Webmanifest file.  -->
+
+    <!-- Optimizations for micro-browsers. Another enhancement. -->
+    <!-- social sharing previews. Make sure every page template has title, desc, and cover url -->
+    <!-- Open graph -->
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ desc }}">
+    {% if cover %}
+    <meta property="og:image" content="{{ cover }}" />
+    <meta property="og:image:alt" content="{{ coverAlt }}">
+    {% endif %}
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@anurella">
+    <meta name="twitter:description" content="{{ desc }}">
+    <meta name="twitter:image" content="{{ cover }}">
+    <meta name="twitter:creator" content="@anurella">
+    <!-- Validate what a Twitter card looks like: https://cards-dev.twitter.com/validator -->
+
+
+    <!-- A lightweight syntax highlighter. Yay. -->
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
+
+
+    <!-- The page supports both dark and light color schemes, and the page author prefers light. Use this in combination with custom styles using prefers-color-scheme in your CSS -->
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <!-- Performance tip: provide different stylesheets per color theme that are conditionally loaded. (to avoid loading non-matching styles) -->
+    <!-- <link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)"> -->
+    <!-- 👆🏻 these are commented out because I haven't decided on what approach to take yet. -->
+
+    <!-- Modern Cutting the Mustard -->
+    <script type="module">
+        // This is a capable browser, let's enhance the UI further!
+        document.documentElement.classList.add("enhanced");
+        document.documentElement.classList.remove('no-js');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preload" href="{{ '/assets/fonts/Inter/Inter-VariableFont_slnt,wght-subset.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+
+    <style>
+        @font-face {
+            font-family: "Inter";
+            src: url("{{ '/assets/fonts/Inter/Inter-VariableFont_slnt,wght-subset.woff2' | url }}") format("woff2"),
+            url("{{ '/assets/fonts/Inter/Inter-VariableFont_slnt,wght-subset.zopfli.woff' | url }}") format("woff");
+            font-weight: 100 900;
+            font-display: swap;
+        }
+    </style>
+
+    <!-- Stylesheets. Don’t forget print. -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | url }}" media="print">
+</head>
+
+<body class="{{ hook }}">
+    <!-- Provide a way to bypass repeated content (such as nav links) and skip to the main section of the page. The main section for each page is defined each layout template independently. -->
+    <a href="#main" class="skip-link" id="skip-link">Skip to main content</a>
+
+    {{ content | safe }}
+
+
+    <!-- Hey there, curious cat! I’m an independent design engineer, and I’m always open to discuss exciting new opportunities! -->
+
+</body>
+
+</html>
